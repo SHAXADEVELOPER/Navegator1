@@ -55,61 +55,69 @@
     </header>
 
     <div class="contact-bg">
-        <div class="contact light-color" id="contact">
-            <iframe
+        <div class="contact" id="contact">
+            <iframe class="karta"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d302.60744860462614!2d67.82217602900012!3d40.14021666964399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b297ec3e1b97b1%3A0x343d6343829a6c15!2sNavigator%20studio!5e0!3m2!1sru!2s!4v1698923466943!5m2!1sru!2s"
-                width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
             <div class="contact-form">
                 <h2>отправьте свои заказ</h2>
                 <form class="form" id="form">
-                    <div class="contact-element">
-                        <input type="text" placeholder="Имя" id="name" class="name" required />
-                        <p style="color: crimson; visibility: hidden" id="name_error">
-                            * Пожалуйста, введите Ваше имя
-                        </p>
+                    <div class="form-el">
+                        <div class="contact-element">
+                            <input type="text" placeholder="Имя" id="name" class="name" required />
+                            <p style="color: crimson; visibility: hidden" id="name_error">
+                                * Пожалуйста, введите Ваше имя
+                            </p>
+                        </div>
+                        <div class="contact-element">
+                            <input type="text" placeholder="фамилия" id="name2" class="name2" required />
+                            <p style="color: crimson; visibility: hidden" id="name2_error">
+                                * Пожалуйста, введите Ваше фамилия
+                            </p>
+                        </div>
                     </div>
-                    <div class="contact-element">
-                        <input type="text" placeholder="фамилия" id="name2" class="name2" required />
-                        <p style="color: crimson; visibility: hidden" id="name2_error">
-                            * Пожалуйста, введите Ваше фамилия
-                        </p>
-                    </div>
-                    <div class="contact-element">
-                        <input type="text" placeholder="адрес" id="manzil" class="manzil" required />
-                        <p style="color: crimson; visibility: hidden" id="manzil_error">
-                            * Пожалуйста, введите Ваше фамилия
-                        </p>
-                    </div>
-                    <div class="contact-element">
-                        <input type="text" placeholder="дни свадьбы" id="tuy" class="tuy" required />
-                        <p style="color: crimson; visibility: hidden" id="tuy_error">
-                            * Пожалуйста, введите Ваше фамилия
-                        </p>
-                    </div>
-                    <div class="contact-element">
-                        <input type="email" placeholder="Электронная почта" id="email" class="email" required />
-                        <p style="color: crimson; visibility: hidden" id="email_error">
-                            * Пожалуйста, введите адрес э-почты
-                        </p>
-                    </div>
-                    <div class="contact-element">
-                        <textarea name="message" id="message" class="message" rows="5" placeholder="Сообщения"
-                            required></textarea>
-                        <p style="color: crimson; visibility: hidden" id="message_error">
-                            * Пожалуйста, напишите что-нибудь
-                        </p>
-                    </div>
-                    <div class="button-element">
-                        <button class="btn send" id="send" type="button">
-                            Отправить
-                        </button>
-                        <p style="color: darkcyan; visibility: hidden" class="form_sent">
-                            Успешно отправлено
-                        </p>
+                    <div class="form-el">
+                        <div class="contact-element">
+                            <input type="text" placeholder="дни свадьбы" id="tuy" class="tuy" required />
+                            <p style="color: crimson; visibility: hidden" id="tuy_error">
+                                * Пожалуйста, введите Ваше фамилия
+                            </p>
+                        </div>
+                        <div class="contact-element">
+                            <input type="email" placeholder="Электронная почта" id="email" class="email" required />
+                            <p style="color: crimson; visibility: hidden" id="email_error">
+                                * Пожалуйста, введите адрес э-почты
+                            </p>
+                        </div>
                     </div>
                 </form>
+                <div class="form-ele">
+                    <div class="form-el">
+                        <div class="contact-element">
+                            <input type="text" placeholder="адрес" id="manzil" class="manzil" required />
+                            <p style="color: crimson; visibility: hidden" id="manzil_error">
+                                * Пожалуйста, введите Ваше фамилия
+                            </p>
+                        </div>
+                        <div class="contact-element">
+                            <textarea name="message" id="message" class="message" rows="5" placeholder="Сообщения"
+                                required></textarea>
+                            <p style="color: crimson; visibility: hidden" id="message_error">
+                                * Пожалуйста, напишите что-нибудь
+                            </p>
+                        </div>
+                        <div class="button-element">
+                            <button class="btn send" id="send" type="button">
+                                Отправить
+                            </button>
+                            <p style="color: darkcyan; visibility: hidden" class="form_sent">
+                                Успешно отправлено
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
